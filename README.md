@@ -5,7 +5,9 @@ Welcome to your first graded assignment!
 We have broken this assignment into 3 parts:
 
   **Part 1:** You will create a one-question quiz.  This quiz will also ask for the user's name.
+  
   **Part 2:** You will create a 5-question quiz.  You will create a way to store and display questions, correct answers, and user answers.
+  
   **Part 3:** You will compare the user's answers with the correct answer and provide a final score.  The score will also tell the user if they passed or failed.
 
 The starter code contains `TODO` statements to guide you.  Look for them as you work through this assignment.

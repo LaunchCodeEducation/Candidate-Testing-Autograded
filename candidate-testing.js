@@ -10,7 +10,7 @@ let correctAnswer;
 let candidateAnswer;
 
 
-//TODO: Variable for Part 2
+//TODO: Variables for Part 2
 let questions;
 let correctAnswers;
 let candidateAnswers;

@@ -33,8 +33,8 @@ function gradeQuiz(candidateAnswers) {
 
 
 
-  let grade;  //TODO 3.2a use this variable to calculate the candidates score.
-//TODO 3.2b calculate the candidate's percentage
+  let grade;  //TODO 3.2 use this variable to calculate the candidates score.
+
 
   return grade;
 }
@@ -47,8 +47,7 @@ function runProgram() {
   gradeQuiz(this.candidateAnswers);
 }
 
-// Don't write any code below this line //
-// And don't change these or your program will not run as expected //
+// ----------- Don't write any code or change any code below this line ---------- //
 module.exports = {
   candidateName: candidateName,
   question: question,

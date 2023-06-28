@@ -1,17 +1,20 @@
 {
-  "name": "candidate-testing",
-  "version": "1.0.0",
-  "description": "intro to prof web dev assignment 1",
-  "main": "candidate-testing.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "readline-sync": "^1.4.10"
-  },
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+   "name": "candidate-testing",
+   "version": "1.0.0",
+   "description": "intro to prof web dev assignment 1",
+   "main": "scrabble-scorer.js",
+   "scripts": {
+      "test": "jest"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "readline-sync": "^1.4.10"
+   },
+   "devDependencies": {
+      "jest": "^29.5.0"
+   },
+   "overrides": {
+      "semver": "~7.5.2"
+   }
 }

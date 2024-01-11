@@ -1,14 +1,26 @@
 const input = require('readline-sync');
 
 // TODO 2: modify your quiz app to ask 5 questions //
+let questions = [
+  {question : "What is the best car to drive?"},
+  {question : "What is your birthdate?"},
+  {question : "Do you like snow?"},
+  {question : "What is today's date?"},
+  {question : "How many days are in a week?"}, 
+];
 
 // TODO 1.1a: Define candidateName // 
-let candidateName = input.question("What is your name? ");
-candidateName = " ";
+let candidateName = "";
+
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let question = "Who was the first American woman in space? ";
-let correctAnswer = "Sally Ride";
-let candidateAnswer = " ";
+let questions = [
+  {question: "Who was the first American woman in space? ", correctAnswer: "Sally Ride "},
+  {question: "What is your birthdate? ", correctAnswer: "9/13/1973 "},
+  {question: "Do you like snow? ", correctAnswer: "Yes/No"},
+  {question: "What is today's date? ", correctAnswer: "The day after yesterday. "},
+  {question: "How many days are in a week? ", correctAnswer: " 7 "}, 
+];
+let candidateAnswer = [];
 
 
 
@@ -21,7 +33,7 @@ let candidateAnswers;
 
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
-var candidateName = prompt("What is your name?");
+var candidateName = input.question("What is your name?");
 candidateName = " ";
 }
 

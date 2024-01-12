@@ -31,12 +31,12 @@ function askQuestion() {
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-  let question = "Who was the first American woman in space? ";
-  let correctAnswer = "Sally Ride";
-  candidateAnswer = "";
-  if (candidateAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+  //let question = "Who was the first American woman in space? ";
+  //let correctAnswer = "Sally Ride";
+  //candidateAnswer =[];
+  if (candidateAnswer === correctAnswer) {
     console.log("Your answer is correct!");
-  } else {
+  } else{
     console.log("Sorry, your answer is incorrect. The correct answer is " + correctAnswer + ".");
   }
 
@@ -52,7 +52,7 @@ function runProgram() {
   // TODO 1.1c: Greet candidate using their name //
   console.log("Hello, " + candidateName + "!");
   askQuestion();
-  gradeQuiz(this.candidateAnswers);
+  gradeQuiz(candidateAnswers);
 }
 
 // ----------- Don't write any code or change any code below this line ---------- //

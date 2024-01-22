@@ -48,14 +48,14 @@ function gradeQuiz(candidateAnswers) {
   //let question = "Who was the first American woman in space? ";
   //let correctAnswer = "Sally Ride";
   //candidateAnswer =[];
-  for (let i = 0; i < candidateAnswers.length; i++) {
-  if (candidateAnswers[i].toLowerCase().trim()
-   === correctAnswers[i].toLowerCase().trim()) {
-    console.log("Your answer is correct!");
-  } else {
-   console.log("Sorry, your answer is incorrect. The correct answer is "  + `${correctAnswers[i]}` + ".");
-   }
-  }
+  //for (let i = 0; i < candidateAnswers.length; i++) {
+  //if (candidateAnswers[i].toLowerCase().trim()
+  // === correctAnswers[i].toLowerCase().trim()) {
+  //  console.log("Your answer is correct!");
+  //} else {
+  // console.log("Sorry, your answer is incorrect. The correct answer is "  + `${correctAnswers[i]}` + ".");
+  // }
+  //}
 
   let grade;  //TODO 3.2 use this variable to calculate the candidates score.
  return grade;

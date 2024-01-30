@@ -41,11 +41,9 @@ console.log("Sorry, your answer is incorrect. The correct answer is "  + `${corr
 
 function gradeQuiz(candidateAnswers) {
   let numberOfCorrectAnswers = 0;
-//console.log(`length of candidateAnswers.length)`);
-//console.log(`Length of correctAnswers: ${correctAnswers.length}`);
+
   for (let i = 0; i < candidateAnswers.length; i++) { 
-//console.log(`candidateAnswers[${i}]: ${candidateAnswers[i]}`);//
-// console.log(`correctAnswers[${i}]: ${correctAnswers[i]}`);
+
     if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
       numberOfCorrectAnswers++;
    }
